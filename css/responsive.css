@@ -1,0 +1,68 @@
+/* // `xs` returns only a ruleset and no media query */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .something_img img{
+        display: none;
+    }
+    .header_content {
+        margin-top: 100px;
+    }
+    .header_banner {
+        background: url(../images/banner1.png);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 0px 200px;
+    }
+}
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .something_img img{
+        display: none;
+    }
+    .header_content {
+        margin-top: 100px;
+    }
+    .header_banner {
+        background: url(../images/banner1.png);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 0px 200px;
+    }
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .something_img img{
+        display: none;
+    }
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header_content h1 {
+        font-size: 54px;
+        font-weight: 300;
+        color: #ffffff;
+        padding-bottom: 20px;
+        text-transform: capitalize;
+    }
+    .something_img {
+        top: -640px;
+        right: 0;
+    }
+    .sr-4 a{
+        margin-bottom: 22px;
+    }
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+   
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (min-width: 1400px) {
+    
+}
